@@ -1,0 +1,4 @@
+server:
+  port: 8324
+  servlet:
+    context-path: /wxPayDemo
