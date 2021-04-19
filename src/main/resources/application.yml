@@ -2,3 +2,14 @@ server:
   port: 8324
   servlet:
     context-path: /wxPayDemo
+spring:
+  activemq:
+    user: admin
+    password: admin
+    broker-url: tcp://192.168.1.91:61616
+    pool:
+      enabled: true
+      max-connections: 10
+
+queueName: publish.queue
+topicName: publish.topic
